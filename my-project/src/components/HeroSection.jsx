@@ -1,5 +1,5 @@
  import React from 'react'
- import Navbar from './navbar'
+ import Navbar from './Navbar'
  import video1 from "../assets/video1.mp4"
  import video2 from "../assets/video2.mp4"
  import { ButtonGradient, ButtonSimple } from "./Button";

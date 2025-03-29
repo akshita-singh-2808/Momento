@@ -3,9 +3,13 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 import { ButtonGradient, ButtonSimple } from "./Button";
+import { useNavigate } from "react-router-dom";
+
+
 
 
 function Navbar(){
+  const navigate = useNavigate();
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative lg:text-sm ">
@@ -22,8 +26,9 @@ function Navbar(){
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <ButtonSimple objectName="Sign In"/>
-            <ButtonGradient  objectName="Create an account" />
+          <ButtonSimple objectName="Sign In" onClick={() => navigate("/login")} />
+          <ButtonGradient objectName="Create an Account" onClick={() => navigate("/signup")} />
+           
           </div>
         </div>
       </div>
