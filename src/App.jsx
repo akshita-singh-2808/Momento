@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
-
+import CursorEffect from "./components/CursorEffect";
 
 
 function HomePage() {
@@ -21,7 +21,8 @@ function HomePage() {
 }
 
 function App() {
-  return (
+  return ( <>
+  <CursorEffect />
     <Router>
       <Navbar />
       <div className="max-w-4xl mx-auto pt-20 px-6">
@@ -31,7 +32,8 @@ function App() {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-    </Router>
+    </Router></>
+  
   );
 }
 
