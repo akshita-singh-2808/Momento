@@ -1,0 +1,19 @@
+
+.login-div {
+    background-image: url("/nnnoise.svg");
+    border: 1px solid white;
+    width: 25rem;
+    cursor: url("https://cur.cursors-4u.net/cursors/cur-11/cur1021.cur"), auto;
+}
+
+.p-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-div:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
