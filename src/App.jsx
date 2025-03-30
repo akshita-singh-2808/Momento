@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import CursorEffect from "./components/CursorEffect";
+import Events from "./components/Events";
 
 
 function HomePage() {
@@ -28,6 +29,7 @@ function App() {
       <div className="max-w-4xl mx-auto pt-20 px-6">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/events" element={<Events/>} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
         </Routes>
