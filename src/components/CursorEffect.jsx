@@ -12,7 +12,7 @@ const CursorEffect = () => {
         "#b71c1c", "#bf360c", "#ff7043", "#ff5252"
       ];
       
-      const interactiveElements = document.querySelectorAll("input, button, textarea,a,img");
+      const interactiveElements = document.querySelectorAll("input, button, textarea,a,img,.login-div");
 
       interactiveElements.forEach((element) => {
         element.addEventListener("mouseenter", () => {
