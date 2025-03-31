@@ -96,5 +96,8 @@ The **Event Planner and Ticketing System** is a platform where event organizers 
 - **QR Code Ticketing** for easy check-ins.
 
 ---
+## Contributors
+- **Frontend** Akshita Singh.
+- **Backend** Abhilasha Khangar.
 
-This project is an excellent portfolio piece, demonstrating expertise in full-stack development, real-time applications, and payment processing. 🚀
+Thankyou for visiting :)
