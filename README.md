@@ -2,7 +2,12 @@
 
 ## Project Overview
 The **Event Planner and Ticketing System** is a platform where event organizers can create, manage, and promote events, while users can explore and purchase tickets. The system supports real-time updates, secure payments, and user management, showcasing full-stack web development skills.
-[Preview](https://github.com/akshita-singh-2808/Momento/blob/cafe937bde63de6849d3c1c60d24e5713a8d4032/Screen%20Recording%202025-03-26%20002315.mp4)
+
+<video width="640" height="360" controls>
+    <source src="https://github.com/akshita-singh-2808/Momento/blob/cafe937bde63de6849d3c1c60d24e5713a8d4032/Screen%20Recording%202025-03-26%20002315.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 
 
 ## Features
